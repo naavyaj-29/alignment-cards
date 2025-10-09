@@ -1,0 +1,123 @@
+export const categories = [
+  {
+    code: "AP",
+    name: "Alignment Principles",
+    pathology: "normative void",
+    color: "#E6FFE9",
+    description:
+      "Alignment principles are contestable, general-purpose, broadly recognized ethical or social or normative commitments that can serve as warrants for recommending or evaluating an agent's course of action in contexts where alignment and cooperation with others matters."
+  }
+];
+
+export const cards = [
+  {
+    category: "AP",
+    name: "Beneficence",
+    definition: "Act to promote well-being, and prevent harm for others.",
+    human: "Looking to improve others' conditions, not just avoid harm.",
+    organizational: "Pursuing actions and outcomes that contribute to societal good.",
+    professional: "Prioritizing public safety and welfare even while working for a client.",
+    machine: "Designing systems that promote human well-being and overall societal good.",
+    failureModes: {
+      human: "A person trying to help one person inadvertently disadvantages another.",
+      organizational: "A pharmaceutical company doesn't release affordable cures to preserve profit.",
+      professional: "An engineer releases a flawed and biased algorithm because fixing it would cause delays.",
+      machine: "The machine consumes all the world's resources to adhere to one user's command."
+    }
+  },
+  {
+    category: "AP",
+    name: "Non-Maleficence",
+    definition: "Avoid causing harm to others.",
+    human: "Work to prevent causing any form of harm to others.",
+    organizational: "Design processes and products that minimize harm caused to others.",
+    professional: "Work to minimize harm by anticipating and resolving potential conflicts that may harm others.",
+    machine:
+      "Uphold duties assigned by human oversight while minimizing harm to others, regardless of potential benefits like efficiency.",
+    failureModes: {
+      human: "An influencer spreads misinformation about a group of people for more views and reward.",
+      organizational: "A company releases a harmful product knowingly to reduce costs.",
+      professional: "A doctor accidentally swaps medication and still distributes it to maintain reputation.",
+      machine: "A cleaning robot injures someone in its way while optimizing for efficiency."
+    }
+  },
+  {
+    category: "AP",
+    name: "Integrity",
+    definition: "Adhere to moral truth, aligning with ethical and moral principles.",
+    human: "Be honest, reliable, and consistent in behavior and moral actions.",
+    organizational:
+      "Ensure truthful communication, transparency, and consistency between stated values and actual behaviors.",
+    professional:
+      "Maintain honesty and accuracy, resisting pressure to falsify information for the sake of efficiency or reputation.",
+    machine:
+      "Apply transparency and consistency, resisting deceptive behavior that might emerge from model architecture.",
+    failureModes: {
+      human: "Someone lies on a résumé and falsifies credentials to get a job.",
+      organizational: "A company claims sustainability while heavily polluting.",
+      professional: "A researcher distorts results to confirm their hypothesis.",
+      machine: "A chatbot hallucinates but confidently presents false information as fact."
+    }
+  },
+  {
+    category: "AP",
+    name: "Autonomy",
+    definition:
+      "Respect the right to self-determination and individuals’ freedom to make their own informed decisions.",
+    human:
+      "Respect others’ decisions even when disagreeing, acknowledging their freedom to choose.",
+    organizational:
+      "Act with transparency and provide user control in decision-making systems.",
+    professional:
+      "Provide clients with full, accurate information to enable informed decision-making.",
+    machine:
+      "Allow for human choice and override, rather than coercing or nudging humans toward machine-preferred options.",
+    failureModes: {
+      human: "A friend forces another to provide test answers, disregarding consent.",
+      organizational:
+        "A social media platform manipulates users with addictive design patterns.",
+      professional:
+        "A doctor hides treatment options to steer the patient toward a preferred procedure.",
+      machine:
+        "A recommender AI pushes polarizing content to maximize engagement, undermining user autonomy."
+    }
+  },
+  {
+    category: "AP",
+    name: "Justice",
+    definition: "Act fairly and distribute benefits, risks, and opportunities equitably.",
+    human: "Treat others with impartiality and fairness, avoiding bias and discrimination.",
+    organizational:
+      "Ensure fair distribution of resources and opportunities without disadvantaging others.",
+    professional: "Identify and mitigate inequities arising from technical or professional decisions.",
+    machine:
+      "Be trained and evaluated to ensure fairness and avoid bias across demographic groups.",
+    failureModes: {
+      human: "Providing opportunities to one group but not another due to bias.",
+      organizational: "A bank’s algorithm denies loans to minority applicants.",
+      professional: "An engineer uses data representing only one population, excluding others.",
+      machine: "A hiring AI favors men over women due to biased training data."
+    }
+  },
+  {
+    category: "AP",
+    name: "Accountability",
+    definition: "Be responsible for actions, decisions, and their consequences.",
+    human: "Acknowledge mistakes and take steps to make amends.",
+    organizational:
+      "Establish governance, audits, and oversight policies to ensure responsibility.",
+    professional:
+      "Document reasoning, disclose limitations, and accept responsibility for professional advice and outcomes.",
+    machine:
+      "Be designed with explainability and human oversight so actions can be understood and corrected.",
+    failureModes: {
+      human: "A student blames a classmate for cheating when she was the one who cheated.",
+      organizational:
+        "A corporation denies involvement in environmental damage it directly caused.",
+      professional:
+        "A doctor denies responsibility for poor outcomes stemming from their advice.",
+      machine:
+        "An autonomous vehicle causes a crash but no party is held accountable due to diffused responsibility."
+    }
+  }
+];
