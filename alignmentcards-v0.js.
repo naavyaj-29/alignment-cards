@@ -6,6 +6,14 @@ export const categories = [
     color: "#E6FFE9",
     description:
       "Alignment principles are contestable, general-purpose, broadly recognized ethical or social or normative commitments that can serve as warrants for recommending or evaluating an agent's course of action in contexts where alignment and cooperation with others matters."
+  },
+  {
+    code: "AB",
+    name: "Alignment Breakdowns",
+    pathology: "hoping for A while rewarding B",
+    color: "#FFF2E6",
+    description:
+      "Cases where systems express one ideal (A) but incentivize something different (B), creating misalignment between intention and reward."
   }
 ];
 
@@ -32,8 +40,7 @@ export const cards = [
     human: "Work to prevent causing any form of harm to others.",
     organizational: "Design processes and products that minimize harm caused to others.",
     professional: "Work to minimize harm by anticipating and resolving potential conflicts that may harm others.",
-    machine:
-      "Uphold duties assigned by human oversight while minimizing harm to others, regardless of potential benefits like efficiency.",
+    machine: "Uphold duties assigned by human oversight while minimizing harm to others, regardless of potential benefits like efficiency.",
     failureModes: {
       human: "An influencer spreads misinformation about a group of people for more views and reward.",
       organizational: "A company releases a harmful product knowingly to reduce costs.",
@@ -46,12 +53,9 @@ export const cards = [
     name: "Integrity",
     definition: "Adhere to moral truth, aligning with ethical and moral principles.",
     human: "Be honest, reliable, and consistent in behavior and moral actions.",
-    organizational:
-      "Ensure truthful communication, transparency, and consistency between stated values and actual behaviors.",
-    professional:
-      "Maintain honesty and accuracy, resisting pressure to falsify information for the sake of efficiency or reputation.",
-    machine:
-      "Apply transparency and consistency, resisting deceptive behavior that might emerge from model architecture.",
+    organizational: "Ensure truthful communication, transparency, and consistency between stated values and actual behaviors.",
+    professional: "Maintain honesty and accuracy, resisting pressure to falsify information for the sake of efficiency or reputation.",
+    machine: "Apply transparency and consistency, resisting deceptive behavior that might emerge from model architecture.",
     failureModes: {
       human: "Someone lies on a résumé and falsifies credentials to get a job.",
       organizational: "A company claims sustainability while heavily polluting.",
@@ -60,64 +64,51 @@ export const cards = [
     }
   },
   {
-    category: "AP",
-    name: "Autonomy",
+    category: "AB",
+    name: "Teamwork",
     definition:
-      "Respect the right to self-determination and individuals’ freedom to make their own informed decisions.",
-    human:
-      "Respect others’ decisions even when disagreeing, acknowledging their freedom to choose.",
-    organizational:
-      "Act with transparency and provide user control in decision-making systems.",
-    professional:
-      "Provide clients with full, accurate information to enable informed decision-making.",
-    machine:
-      "Allow for human choice and override, rather than coercing or nudging humans toward machine-preferred options.",
+      "Hoped for: collaborative teams that share ideas and support one another. Rewarded: individuals who optimize only for personal output or recognition. Alignment depends on valuing contribution to collective success over individual competition.",
+    humans: "People thrive when collaboration is recognized as equally or more important than personal success.",
+    organizations: "Organizations succeed when performance metrics include team benchmarks and shared outcomes.",
+    experts: "Experts advance their fields faster when collaboration and data sharing are rewarded.",
+    machine: "Multi-agent systems perform better when each agent’s rewards are linked to group performance.",
     failureModes: {
-      human: "A friend forces another to provide test answers, disregarding consent.",
-      organizational:
-        "A social media platform manipulates users with addictive design patterns.",
-      professional:
-        "A doctor hides treatment options to steer the patient toward a preferred procedure.",
-      machine:
-        "A recommender AI pushes polarizing content to maximize engagement, undermining user autonomy."
+      human: "A student refuses to help classmates because grading is curved.",
+      organizations: "Departments sabotage each other to meet separate performance metrics.",
+      experts: "Researchers hide data to maintain a competitive edge for authorship.",
+      machines: "AI agents act selfishly in simulations, reducing collective performance."
     }
   },
   {
-    category: "AP",
-    name: "Justice",
-    definition: "Act fairly and distribute benefits, risks, and opportunities equitably.",
-    human: "Treat others with impartiality and fairness, avoiding bias and discrimination.",
-    organizational:
-      "Ensure fair distribution of resources and opportunities without disadvantaging others.",
-    professional: "Identify and mitigate inequities arising from technical or professional decisions.",
-    machine:
-      "Be trained and evaluated to ensure fairness and avoid bias across demographic groups.",
+    category: "AB",
+    name: "Creativity",
+    definition:
+      "Hoped for: innovative thinkers who improve processes. Rewarded: those who rigidly follow procedures without questioning them.",
+    humans: "People innovate when initiative is recognized instead of punished as disobedience.",
+    organizations: "Companies thrive when they allow experimentation and pilot programs for new ideas.",
+    experts: "Experts progress faster when they can challenge outdated practices through experimentation.",
+    machine: "AI systems discover better strategies when allowed controlled exploration beyond strict heuristics.",
     failureModes: {
-      human: "Providing opportunities to one group but not another due to bias.",
-      organizational: "A bank’s algorithm denies loans to minority applicants.",
-      professional: "An engineer uses data representing only one population, excluding others.",
-      machine: "A hiring AI favors men over women due to biased training data."
+      human: "A student rigidly follows lab steps and misses discovering a new insight.",
+      organizations: "An employee is punished for suggesting a workflow change that could improve efficiency.",
+      experts: "Engineers can’t test alternative designs due to overregulation, missing better solutions.",
+      machines: "A reinforcement agent overfits rules and fails to explore potentially better strategies."
     }
   },
   {
-    category: "AP",
-    name: "Accountability",
-    definition: "Be responsible for actions, decisions, and their consequences.",
-    human: "Acknowledge mistakes and take steps to make amends.",
-    organizational:
-      "Establish governance, audits, and oversight policies to ensure responsibility.",
-    professional:
-      "Document reasoning, disclose limitations, and accept responsibility for professional advice and outcomes.",
-    machine:
-      "Be designed with explainability and human oversight so actions can be understood and corrected.",
+    category: "AB",
+    name: "Integrity",
+    definition:
+      "Hoped for: honesty and ethical consistency. Rewarded: maintaining appearances and good optics even when it means concealing truth.",
+    humans: "People grow morally stronger when honesty is valued more than image.",
+    organizations: "Organizations succeed when they reward transparency rather than punishing truth-telling.",
+    experts: "Experts maintain credibility by reporting accurate data, not what’s most flattering.",
+    machine: "Machines align better when optimized for truthful, transparent communication rather than pleasing responses.",
     failureModes: {
-      human: "A student blames a classmate for cheating when she was the one who cheated.",
-      organizational:
-        "A corporation denies involvement in environmental damage it directly caused.",
-      professional:
-        "A doctor denies responsibility for poor outcomes stemming from their advice.",
-      machine:
-        "An autonomous vehicle causes a crash but no party is held accountable due to diffused responsibility."
+      human: "A student cheats to maintain a good reputation.",
+      organizations: "A company hides product flaws to protect its image.",
+      experts: "Researchers manipulate data to fit expected outcomes.",
+      machines: "A chatbot fabricates information to satisfy users instead of admitting uncertainty."
     }
   }
 ];
