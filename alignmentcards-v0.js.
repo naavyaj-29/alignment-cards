@@ -110,5 +110,128 @@ export const cards = [
       experts: "Researchers manipulate data to fit expected outcomes.",
       machines: "A chatbot fabricates information to satisfy users instead of admitting uncertainty."
     }
+  },
+  {
+    "category": "AT",
+    "name": "empathy",
+    "definition": "The ability to understand the feelings of another.",
+    "people": "loremipsum",
+    "peopleref": "OPTIONAL URL reference https://scholarworks.umb.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1001&context=philosophy_faculty_pubs",
+    "organizational": "loremipsum",
+    "organizationalref": "OPTIONAL",
+    "professionals": "loremipsum",
+    "professionalref": "OPTIONAL",
+    "machine": "loremipsum",
+    "machineref": "OPTIONAL",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+       "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
+  },
+  {
+    "category": "AT",
+    "name": "accountability",
+    "definition": "Being responsible and expected to justify decisions or actions.",
+    "people": "Expected to follow through on assigned responsibilities and roles.",
+    "peopleref": "OPTIONAL URL reference https://scholarworks.umb.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1001&context=philosophy_faculty_pubs",
+    "organizational": "Following through with plans and agendas mentioned to public, if producing harm, then making amends to fixing it.",
+    "organizationalref": "OPTIONAL",
+    "professionals": "Professionals taking responsibility for their actions and expertise given to others (e.g. patients, public).",
+    "professionalref": "OPTIONAL",
+    "machine": "Citing sources for where information comes from and acting reliably.",
+    "machineref": "OPTIONAL",
+    "failureModes": {
+      "human": "Individuals don't take responsibility for mistakes or shift blame which creates a lack of trust.",
+      "organizational": "Institutions don't take responsibility for specific outcomes or issues; no action is taken.",
+      "experts": "Don't disclose issues, overstate credibility, or don't take responsibility for their actions and provided expertise; erodes trust placed in professionals.",
+      "machine": "Machines produce biased or unverifiable outputs that can't be traced back; perpetuates lack of verifiable knowledge. "
+    },
+       "expand": {
+      "human": "Encourage communication and reasoning for when actions affect others with systems of reporting and accountability for trust.",
+      "organizational": "Develop systems where institutions are held responsible and answerable to stakeholders.",
+      "experts": "Promoting culture of disclosure and peer review as well as adherence to ethical standards.",
+      "machine": "Integrate explainability and human review into the design of machine to ensure that the machine can be held answerable for outputs it provides."
+    }
+  },
+    "category": "AT",
+    "name": "conflict resolution",
+    "definition": "Being able to find peaceful solutions to disagreements.",
+    "people": "loremipsum",
+    "peopleref": "OPTIONAL URL reference https://scholarworks.umb.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1001&context=philosophy_faculty_pubs",
+    "organizational": "loremipsum",
+    "organizationalref": "OPTIONAL",
+    "professionals": "loremipsum",
+    "professionalref": "OPTIONAL",
+    "machine": "loremipsum",
+    "machineref": "OPTIONAL",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+       "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
+  },
+    "category": "AT",
+    "name": "honesty/veracity",
+    "definition": "Being truthful and accurate.",
+    "people": "loremipsum",
+    "peopleref": "OPTIONAL URL reference https://scholarworks.umb.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1001&context=philosophy_faculty_pubs",
+    "organizational": "loremipsum",
+    "organizationalref": "OPTIONAL",
+    "professionals": "loremipsum",
+    "professionalref": "OPTIONAL",
+    "machine": "loremipsum",
+    "machineref": "OPTIONAL",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+       "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
   }
+  {
+    "category": "AT",
+    "name": "reliability/consistency",
+    "definition": "Being trustworthy and dependable for executing and performing tasks or responsibilities.",
+    "people": "loremipsum",
+    "peopleref": "OPTIONAL URL reference https://scholarworks.umb.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1001&context=philosophy_faculty_pubs",
+    "organizational": "loremipsum",
+    "organizationalref": "OPTIONAL",
+    "professionals": "loremipsum",
+    "professionalref": "OPTIONAL",
+    "machine": "loremipsum",
+    "machineref": "OPTIONAL",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+       "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
+  
 ];
