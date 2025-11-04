@@ -114,32 +114,6 @@ export const cards = [
   },
   {
     category: "AT",
-    name: "Empathy",
-    definition: "The ability to understand the feelings of another.",
-    people: "loremipsum",
-    peopleref:
-      "https://scholarworks.umb.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1001&context=philosophy_faculty_pubs",
-    organizational: "loremipsum",
-    organizationalref: "OPTIONAL",
-    professional: "loremipsum",
-    professionalref: "OPTIONAL",
-    machine: "loremipsum",
-    machineref: "OPTIONAL",
-    failureModes: {
-      human: "loremipsum",
-      organizational: "loremipsum",
-      professional: "loremipsum",
-      machine: "loremipsum"
-    },
-    expand: {
-      human: "loremipsum",
-      organizational: "loremipsum",
-      professional: "loremipsum",
-      machine: "loremipsum"
-    }
-  },
-  {
-    category: "AT",
     name: "Accountability",
     definition: "Being responsible and expected to justify decisions or actions.",
     people: "Expected to follow through on assigned responsibilities and roles.",
@@ -168,6 +142,60 @@ export const cards = [
         "Promote cultures of disclosure and peer review, and ensure adherence to ethical standards.",
       machine:
         "Integrate explainability and human review into system design so the machine can be held answerable for its outputs."
+    }
+  },
+  {
+    category: "AT",
+    name: "Reliability/Consistency",
+    definition: "Being trustworthy and dependable for executing and performing tasks or responsibilities.",
+    people: "Following through on commitments or assigned roles; behaving predictably under similar circumstances.",
+    peopleref:
+      "https://scholarworks.umb.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1001&context=philosophy_faculty_pubs",
+    organizational:
+      "Maintaining stability in operations and delivering consistent quality in products or services despite external factors.",
+    organizationalref: "OPTIONAL",
+    professional: "Providing dependable expertise and work, adhering to professional and ethical standards.",
+    professionalref: "OPTIONAL",
+    machine:
+      "Producing repeatable and consistent outputs in similar conditions, functioning reliably regardless of external variables.",
+    machineref: "OPTIONAL",
+    failureModes: {
+      human: "loremipsum",
+      organizational: "loremipsum",
+      professional: "loremipsum",
+      machine: "loremipsum"
+    },
+    expand: {
+      human: "loremipsum",
+      organizational: "loremipsum",
+      professional: "loremipsum",
+      machine: "loremipsum"
+    }
+  },
+  {
+    category: "AT",
+    name: "Empathy",
+    definition: "The ability to understand the feelings of another.",
+    people: "loremipsum",
+    peopleref:
+      "https://scholarworks.umb.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1001&context=philosophy_faculty_pubs",
+    organizational: "loremipsum",
+    organizationalref: "OPTIONAL",
+    professional: "loremipsum",
+    professionalref: "OPTIONAL",
+    machine: "loremipsum",
+    machineref: "OPTIONAL",
+    failureModes: {
+      human: "loremipsum",
+      organizational: "loremipsum",
+      professional: "loremipsum",
+      machine: "loremipsum"
+    },
+    expand: {
+      human: "loremipsum",
+      organizational: "loremipsum",
+      professional: "loremipsum",
+      machine: "loremipsum"
     }
   },
   {
@@ -208,34 +236,6 @@ export const cards = [
     professional: "loremipsum",
     professionalref: "OPTIONAL",
     machine: "loremipsum",
-    machineref: "OPTIONAL",
-    failureModes: {
-      human: "loremipsum",
-      organizational: "loremipsum",
-      professional: "loremipsum",
-      machine: "loremipsum"
-    },
-    expand: {
-      human: "loremipsum",
-      organizational: "loremipsum",
-      professional: "loremipsum",
-      machine: "loremipsum"
-    }
-  },
-  {
-    category: "AT",
-    name: "Reliability/Consistency",
-    definition: "Being trustworthy and dependable for executing and performing tasks or responsibilities.",
-    people: "Following through on commitments or assigned roles; behaving predictably under similar circumstances.",
-    peopleref:
-      "https://scholarworks.umb.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1001&context=philosophy_faculty_pubs",
-    organizational:
-      "Maintaining stability in operations and delivering consistent quality in products or services despite external factors.",
-    organizationalref: "OPTIONAL",
-    professional: "Providing dependable expertise and work, adhering to professional and ethical standards.",
-    professionalref: "OPTIONAL",
-    machine:
-      "Producing repeatable and consistent outputs in similar conditions, functioning reliably regardless of external variables.",
     machineref: "OPTIONAL",
     failureModes: {
       human: "loremipsum",
